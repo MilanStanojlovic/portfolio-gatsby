@@ -1,11 +1,19 @@
 import React from 'react'
+import style from './layout.module.scss';
 import Navigation from '../navigation/navigation';
+import Hero from '../hero/hero';
+import About from '../about/about';
+import Projects from '../projects/projects';
+import Contact from '../contact/contact';
 
 const Layout = () => {
   return (
-    <div>
+    <div className={style.layout}>
       <Navigation />
-      <div>Hello world!</div>
+      <Hero />
+      <Projects />
+      <About />
+      <Contact />
     </div>
   )
 }
