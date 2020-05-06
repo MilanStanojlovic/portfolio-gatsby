@@ -4,7 +4,8 @@ import style from './contact.module.scss';
 const Contact = () => {
   return (
     <div className={[style.contact, 'section'].join(' ')}>
-      Contact
+      Let's work together!
+      <button>Contact</button>
     </div>
   )
 }
