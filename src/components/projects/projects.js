@@ -3,7 +3,7 @@ import style from './projects.module.scss';
 
 const Projects = () => {
   return (
-    <div className={style.projects}>
+    <div className={[style.projects, 'section'].join(' ')}>
       Projects
     </div>
   )

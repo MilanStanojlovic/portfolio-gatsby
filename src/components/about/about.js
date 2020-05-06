@@ -3,7 +3,7 @@ import style from './about.module.scss';
 
 const About = () => {
   return (
-    <div className={style.about}>
+    <div className={[style.about, 'section'].join(' ')}>
       About
     </div>
   )
