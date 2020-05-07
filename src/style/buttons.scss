@@ -1,0 +1,16 @@
+@import "./variables.scss";
+
+.button {
+  background-color: $dark;
+  color: $primary;
+  border: 1px solid $primary;
+  padding: 10px 70px;
+  cursor: pointer;
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  
+  &:focus {
+    outline: none;
+  }
+}

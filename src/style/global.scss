@@ -1,8 +1,23 @@
+@import "./variables.scss";
+
 * {
   margin: 0;
   padding: 0;
 }
 
-.section {
-  height: 100vh;
+.highlight-text {
+  color: $primary;
+}
+
+.heading {
+  color: $white;
+  font-family: "Playfair Display", serif;
+  font-size: 4.5rem;
+}
+
+.inner-container {
+  height: 100%;
+  max-width: 2000px;
+  width: 90%;
+  margin: 0 auto;
 }
