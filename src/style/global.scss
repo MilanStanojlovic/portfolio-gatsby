@@ -15,9 +15,27 @@
   font-size: 4.5rem;
 }
 
+.text {
+  color: $white;
+  font-family: "Lato", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
 .inner-container {
   height: 100%;
   max-width: 2000px;
   width: 90%;
   margin: 0 auto;
+}
+
+.section {
+  height: 100vh;
+  background-color: $dark;
+
+  &__content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
 }
