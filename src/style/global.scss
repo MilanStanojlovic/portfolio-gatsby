@@ -16,7 +16,7 @@
 }
 
 .text {
-  color: $white;
+  color: $gray;
   font-family: "Lato", sans-serif;
   font-size: 1.3rem;
   font-weight: 300;
@@ -37,5 +37,9 @@
     height: 100%;
     display: flex;
     align-items: center;
+  }
+
+  &__button {
+    margin-top: 30px;
   }
 }
