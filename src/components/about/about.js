@@ -1,11 +1,12 @@
 import React from 'react';
+import style from './about.module.scss';
 
 const About = () => {
   return (
-    <div className="section">
+    <div className="section" id="about">
       <div className="inner-container">
         <div className="section__content">
-          <div>
+          <div className={style.about__text}>
             <div className="heading">
               About.
             </div>

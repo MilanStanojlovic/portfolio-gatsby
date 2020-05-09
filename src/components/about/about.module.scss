@@ -1,12 +1,5 @@
-@import "../../style/variables.scss";
-
 .about {
-  background-color: $dark;
-  height: 100vh;
-
-  &__content{
-    height: 100%;
-    display: flex;
-    align-items: center;
+  &__text{
+    width: 800px;
   }
 }
