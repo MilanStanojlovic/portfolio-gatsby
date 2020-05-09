@@ -1,16 +1,15 @@
 import React from 'react';
-import style from './contact.module.scss';
 
 const Contact = () => {
   return (
-    <div className={style.contact}>
+    <div className="section" id="contact">
       <div className="inner-container">
-        <div className={style.contact__content}>
+        <div className="section__content">
           <div>
             <div className="heading">
               Let's work <span className="highlight-text">together!</span>
             </div>
-            <button className={['button', style.contact__button].join(' ')}>Contact</button>
+            <button className="button section__button">Contact</button>
           </div>
         </div>
       </div>
