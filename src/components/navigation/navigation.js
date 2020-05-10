@@ -1,21 +1,25 @@
 import React from 'react';
 import style from './navigation.module.scss';
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 const Navigation = () => {
   return (
     <nav>
       <ul>
         <li>
-          <a href="/home" className={style.link}>home</a>
+          <AnchorLink to="/#about" title="About">
+            About
+          </AnchorLink>
         </li>
         <li>
-          <a href="#about">about</a>
+          <AnchorLink to="/#projects" title="Projects">
+            Projects
+          </AnchorLink>
         </li>
         <li>
-          <a href="#projects">projects</a>
-        </li>
-        <li>
-          <a href="#contact">contact</a>
+          <AnchorLink to="/#contact" title="Contact">
+            Contact
+          </AnchorLink>
         </li>
       </ul>
     </nav>
