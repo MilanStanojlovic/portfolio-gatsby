@@ -1,6 +1,9 @@
 import React from 'react';
 import style from './navigation.module.scss';
 import { AnchorLink } from "gatsby-plugin-anchor-links";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faGithub } from "@fortawesome/free-brands-svg-icons"
+import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons"
 
 const Navigation = () => {
   return (
@@ -32,8 +35,12 @@ const Navigation = () => {
       </div>
 
       <div className={style.navigation__social}>
-        linkedin
-        github
+        <a href="https://github.com/MilanStanojlovic" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faGithub} size="2x" className="icon" />
+        </a>
+        <a href="https://www.linkedin.com/in/milan-stanojlovic-5a5379107/" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faLinkedinIn} size="2x" className="icon" />
+        </a>
       </div>
     </nav>
   )
