@@ -9,11 +9,15 @@ import Contact from '../contact/contact';
 const Layout = () => {
   return (
     <div className={style.layout}>
-      <Navigation />
-      <Hero />
-      <Projects />
-      <About />
-      <Contact />
+      <aside className={style.sidebar}>
+        <Navigation />
+      </aside>
+      <main className={style.main}>
+        <Hero />
+        <About />
+        <Projects />
+        <Contact />
+      </main>
     </div>
   )
 }

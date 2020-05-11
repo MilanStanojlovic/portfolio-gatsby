@@ -1,3 +1,12 @@
-.link {
-  color: orange;
+@import "../../style/variables.scss";
+
+.navigation {
+  background-color: $dark;
+  width: 80px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-right: 1px solid $primary;
 }
