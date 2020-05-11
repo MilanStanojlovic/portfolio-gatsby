@@ -36,6 +36,17 @@
   margin: 0 auto;
 }
 
+.icon {
+  transition: ease-in 0.3s;
+  color: $gray;
+  margin-bottom: 8px;
+
+  &:hover {
+    transition: ease-in 0.3s;
+    color: $primary;
+  }
+}
+
 .section {
   height: 100vh;
   background-color: $dark;
