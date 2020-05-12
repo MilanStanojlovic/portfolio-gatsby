@@ -5,6 +5,16 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    title: 'Milan | Software Engineer',
+    author: 'Milan Stanojlovic',
+    description: 'Milan is software engineer specializing in front end development of bespoke web solutions.',
+    email: 'milan.webdeveloper@gamil.com',
+    social: {
+      linkedin: 'https://www.linkedin.com/in/milan-stanojlovic-5a5379107',
+      github: 'https://github.com/MilanStanojlovic'
+    }
+  },
   /* Your site config here */
-  plugins: [`gatsby-plugin-sass`, `gatsby-plugin-anchor-links`],
+  plugins: [`gatsby-plugin-sass`, `gatsby-plugin-anchor-links`, `gatsby-plugin-react-helmet`],
 }
