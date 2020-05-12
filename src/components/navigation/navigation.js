@@ -1,11 +1,25 @@
 import React from 'react';
 import style from './navigation.module.scss';
+import { useStaticQuery, graphql } from 'gatsby';
 import { AnchorLink } from "gatsby-plugin-anchor-links";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faGithub } from "@fortawesome/free-brands-svg-icons"
-import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
 const Navigation = () => {
+  const data = useStaticQuery(graphql`
+  query{
+    site{
+      siteMetadata{
+        social{
+          linkedin, 
+          github
+        }
+      }
+    }
+  }
+  `)
+  
   return (
     <nav className={style.navigation}>
       <div>
@@ -35,10 +49,10 @@ const Navigation = () => {
       </div>
 
       <div className={style.navigation__social}>
-        <a href="https://github.com/MilanStanojlovic" target="_blank" rel="noopener noreferrer">
+        <a href={data.site.siteMetadata.social.github} target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faGithub} size="2x" className="icon" />
         </a>
-        <a href="https://www.linkedin.com/in/milan-stanojlovic-5a5379107/" target="_blank" rel="noopener noreferrer">
+        <a href={data.site.siteMetadata.social.linkedin} target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faLinkedinIn} size="2x" className="icon" />
         </a>
       </div>
