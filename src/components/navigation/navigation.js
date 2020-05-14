@@ -1,10 +1,13 @@
 import React from 'react';
 import style from './navigation.module.scss';
 import { useStaticQuery, graphql } from 'gatsby';
-import { AnchorLink } from "gatsby-plugin-anchor-links";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import { AnchorLink } from 'gatsby-plugin-anchor-links';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import { faCode } from '@fortawesome/free-solid-svg-icons';
+import { faUser } from '@fortawesome/free-regular-svg-icons';
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
 const Navigation = () => {
   const data = useStaticQuery(graphql`
@@ -19,7 +22,7 @@ const Navigation = () => {
     }
   }
   `)
-  
+
   return (
     <nav className={style.navigation}>
       <div>
@@ -28,24 +31,16 @@ const Navigation = () => {
         </AnchorLink>
       </div>
 
-      <div className={style.navigation__social}>
-        <ul>
-          <li>
-            <AnchorLink to="/#about" title="About" className={style.link}>
-              About
-          </AnchorLink>
-          </li>
-          <li>
-            <AnchorLink to="/#projects" title="Projects">
-              Projects
-          </AnchorLink>
-          </li>
-          <li>
-            <AnchorLink to="/#contact" title="Contact">
-              Contact
-          </AnchorLink>
-          </li>
-        </ul>
+      <div className={style.navigation__main}>
+        <AnchorLink to="/#about" title="About">
+          <FontAwesomeIcon icon={faUser} size="2x" className="icon" />
+        </AnchorLink>
+        <AnchorLink to="/#projects" title="Projects">
+          <FontAwesomeIcon icon={faCode} size="2x" className="icon" />
+        </AnchorLink>
+        <AnchorLink to="/#contact" title="Contact">
+          <FontAwesomeIcon icon={faEnvelope} size="2x" className="icon" />
+        </AnchorLink>
       </div>
 
       <div className={style.navigation__social}>
