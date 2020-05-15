@@ -16,5 +16,8 @@ module.exports = {
     }
   },
   /* Your site config here */
-  plugins: [`gatsby-plugin-sass`, `gatsby-plugin-anchor-links`, `gatsby-plugin-react-helmet`],
+  plugins: [`gatsby-plugin-sass`, 
+            `gatsby-plugin-anchor-links`,
+            `gatsby-plugin-react-helmet`, 
+            ],
 }

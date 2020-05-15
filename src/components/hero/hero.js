@@ -17,7 +17,7 @@ const Hero = () => {
       <div className="inner-container">
         <div className="section__content">
           <div>
-            <span className="heading">Milan is a developer</span>
+            <span className="heading">Milan is software engineer</span>
             <h1 className="heading"><span className="highlight-text">Helping businesses develop</span> bespoke web solutions.</h1>
             <a className="button section__button" href={`mailto:${data.site.siteMetadata.email}?subject=Mail from website`} target="_blank" rel="noopener noreferrer">Contact</a>
           </div>
