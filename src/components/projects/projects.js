@@ -14,7 +14,6 @@ const Projects = () => {
             title
             technologies
             image
-            imageAlt
             github
             description
           }
@@ -26,11 +25,10 @@ const Projects = () => {
   const projects = data.allProjectsJson.edges.map((project, index) => {
     return (
       <Project key={project.node.id}
-        even={index}
+        even={index % 2 === 0}
         title={project.node.title}
         description={project.node.description}
         image={project.node.image}
-        imageAlt={project.node.imageAlt}
         technologies={project.node.technologies}
         github={project.node.github}
         web={project.node.web}
@@ -43,8 +41,7 @@ const Projects = () => {
         <div>
           <div className={style.projects}>
             <div className="heading">Projects.</div>
-            {/* <Project even={0 % 2 === 0} /> */}
-            {projects}
+            { projects }
           </div>
         </div>
       </div>
