@@ -44,10 +44,10 @@ const Navigation = () => {
       </div>
 
       <div className={style.navigation__social}>
-        <a href={data.site.siteMetadata.social.github} target="_blank" rel="noopener noreferrer">
+        <a href={data.site.siteMetadata.social.github} target="_blank" rel="noopener noreferrer" aria-label="github">
           <FontAwesomeIcon icon={faGithub} size="2x" className={["icon", style.navigation__icon].join(' ')} />
         </a>
-        <a href={data.site.siteMetadata.social.linkedin} target="_blank" rel="noopener noreferrer">
+        <a href={data.site.siteMetadata.social.linkedin} target="_blank" rel="noopener noreferrer" aria-label="linkedin">
           <FontAwesomeIcon icon={faLinkedinIn} size="2x" className={["icon", style.navigation__icon].join(' ')} />
         </a>
       </div>
