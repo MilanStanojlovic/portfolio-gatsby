@@ -35,7 +35,7 @@ body {
 
 .inner-container {
   height: 100%;
-  max-width: 2000px;
+  max-width: 1300px;
   width: 90%;
   margin: 0 auto;
 }
@@ -43,7 +43,6 @@ body {
 .icon {
   transition: ease-in 0.3s;
   color: $gray;
-  margin-top: 25px;
 
   &:hover {
     transition: ease-in 0.3s;

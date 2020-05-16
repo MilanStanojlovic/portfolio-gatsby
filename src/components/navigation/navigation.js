@@ -33,22 +33,22 @@ const Navigation = () => {
 
       <div className={style.navigation__main}>
         <AnchorLink to="/#about" title="About">
-          <FontAwesomeIcon icon={faUser} size="2x" className="icon" />
+          <FontAwesomeIcon icon={faUser} size="2x" className={["icon", style.navigation__icon].join(' ')} />
         </AnchorLink>
         <AnchorLink to="/#projects" title="Projects">
-          <FontAwesomeIcon icon={faCode} size="2x" className="icon" />
+          <FontAwesomeIcon icon={faCode} size="2x" className={["icon", style.navigation__icon].join(' ')} />
         </AnchorLink>
         <AnchorLink to="/#contact" title="Contact">
-          <FontAwesomeIcon icon={faEnvelope} size="2x" className="icon" />
+          <FontAwesomeIcon icon={faEnvelope} size="2x" className={["icon", style.navigation__icon].join(' ')} />
         </AnchorLink>
       </div>
 
       <div className={style.navigation__social}>
         <a href={data.site.siteMetadata.social.github} target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faGithub} size="2x" className="icon" />
+          <FontAwesomeIcon icon={faGithub} size="2x" className={["icon", style.navigation__icon].join(' ')} />
         </a>
         <a href={data.site.siteMetadata.social.linkedin} target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faLinkedinIn} size="2x" className="icon" />
+          <FontAwesomeIcon icon={faLinkedinIn} size="2x" className={["icon", style.navigation__icon].join(' ')} />
         </a>
       </div>
     </nav>
