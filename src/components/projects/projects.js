@@ -40,7 +40,7 @@ const Projects = () => {
       <div className="inner-container">
         <div>
           <div className={style.projects}>
-            <div className="heading">Projects.</div>
+            <div className="heading__main">Projects.</div>
             { projects }
           </div>
         </div>

@@ -15,9 +15,18 @@ body {
 }
 
 .heading {
-  color: $white;
   font-family: "Playfair Display", serif;
-  font-size: 4.5rem;
+
+  &__main {
+    font-size: 4.5rem;
+    color: $white;
+  }
+
+  &__secondary {
+    font-size: 2.5rem;
+    color: $gray;
+    font-family: "Lato", sans-serif;
+  }
 }
 
 .text {
@@ -61,5 +70,22 @@ body {
 
   &__button {
     margin-top: 30px;
+  }
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+
+  li::before {
+    content: "\2022";
+    color: $primary;
+    display: inline-block;
+    width: 1em;
+  }
+
+  li {
+    margin-right: 10px;
   }
 }
