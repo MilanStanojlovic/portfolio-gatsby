@@ -1,29 +1,26 @@
 [
   {
     "title": "Moovy",
-    "image": "images/trello.PNG",
-    "imageAlt": "Moovy project",
-    "description": "Description of the project",
-    "github": "Github",
-    "web": "web",
-    "technologies": "asd asd asd"
+    "image": "images/moovy.png",
+    "description": "To help movie lovers discover new and exciting movies Moovy allows users to filter movies by category, search for movies, find new, popular as well as top rated movies. Users can also  the movie rating, short description, and movie cast.",
+    "github": "https://github.com/MilanStanojlovic/moovy-app",
+    "web": "https://moovy-browser.netlify.app",
+    "technologies": ["React", "CSS Modules", "Axios"]
   },
   {
-    "title": "Moovy",
-    "image": "images/trello.PNG",
-    "imageAlt": "Moovy project",
-    "description": "Description of the project",
-    "github": "Github",
-    "web": "web",
-    "technologies": "asd asd asd"
+    "title": "Sevapp",
+    "image": "images/sevapp.png",
+    "description": "In order to encourage donation and reuse of items Sevapp is developed to stimulate circular economy. Users can donate items they don't need anymore to other users or organizations that request that item. To make gifting easy sevapp has messaging system.",
+    "github": "",
+    "web": "https://sevapp.rs",
+    "technologies": ["Angular", "TypeScript", "Sass"]
   },
   {
-    "title": "Moovy",
-    "image": "images/trello.PNG",
-    "imageAlt": "Moovy project",
-    "description": "Description of the project",
-    "github": "Github",
-    "web": "web",
-    "technologies": "asd asd asd"
+    "title": "Been",
+    "image": "images/been.png",
+    "description": "Been allows travelers to discover amazing travel locations worldwide, see where their friends have traveled, and read about their experiences and discoveries on vacations. Been is prototype landing page for travel social network.",
+    "github": "https://github.com/MilanStanojlovic/been-landing-page",
+    "web": "https://milanstanojlovic.github.io/been-landing-page/",
+    "technologies": ["HTML5", "Sass", "JavaScript"]
   }
 ]
