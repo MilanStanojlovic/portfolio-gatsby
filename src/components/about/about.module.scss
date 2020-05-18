@@ -1,5 +1,19 @@
 .about {
-  &__text{
+  &__text {
     width: 800px;
+  }
+
+  &__skills {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 900px) {
+  .about {
+    &__skills {
+      width: 100%;
+    }
   }
 }
