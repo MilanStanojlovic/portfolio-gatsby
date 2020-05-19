@@ -26,3 +26,28 @@
     margin-top: 25px;
   }
 }
+
+@media (max-width: 900px) {
+  .navigation {
+    width: 100vw;
+    height: 60px;
+    flex-direction: row;
+    border-right: none;
+    border-top: 1px solid $primary;
+    justify-content: space-around;
+
+    &__social {
+      display: none;
+    }
+
+    &__main {
+      width: 70%;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+
+    &__icon {
+      margin-top: 0;
+    }
+  }
+}

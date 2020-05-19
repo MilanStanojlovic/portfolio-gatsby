@@ -9,7 +9,7 @@ import Contact from '../contact/contact';
 const Layout = () => {
   return (
     <div className={style.layout}>
-      <aside className={style.sidebar}>
+      <aside className={style.navigation}>
         <Navigation />
       </aside>
       <main className={style.main}>

@@ -25,7 +25,7 @@ const Navigation = () => {
 
   return (
     <nav className={style.navigation}>
-      <div>
+      <div className={style.navigation__logo}>
         <AnchorLink to="/#hero" className="logo">
           m.
         </AnchorLink>
