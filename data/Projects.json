@@ -2,7 +2,7 @@
   {
     "title": "Moovy",
     "image": "images/moovy.png",
-    "description": "To help movie lovers discover new and exciting movies Moovy allows users to filter movies by category, search for movies, find new, popular as well as top rated movies. Users can also  the movie rating, short description, and movie cast.",
+    "description": "To help movie lovers discover new and exciting movies, Moovy allows users to filter movies by category, search for movies, find new, popular as well as top rated movies. Users can also  the movie rating, short description, and movie cast.",
     "github": "https://github.com/MilanStanojlovic/moovy-app",
     "web": "https://moovy-browser.netlify.app",
     "technologies": ["React", "CSS Modules", "Axios"]
@@ -10,7 +10,7 @@
   {
     "title": "Sevapp",
     "image": "images/sevapp.png",
-    "description": "In order to encourage donation and reuse of items Sevapp is developed to stimulate circular economy. Users can donate items they don't need anymore to other users or organizations that request that item. To make gifting easy sevapp has messaging system.",
+    "description": "In order to stimulate circular economy Sevapp is developed to encourage donation and reuse of items. Users can donate items they don't need anymore to other users or organizations that request that item. To make donating easy sevapp has messaging system.",
     "github": "",
     "web": "https://sevapp.rs",
     "technologies": ["Angular", "TypeScript", "Sass"]
