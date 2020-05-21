@@ -9,6 +9,11 @@ const Project = ({ even, title, image, description, technologies, github, web })
   const tech = technologies.map((technology, index) => {
     return <li className="text" key={index}>{technology}</li>
   })
+
+  const git = github ? <a href={github} aria-label={`${title} github`} target="_blank" rel="noopener noreferrer">
+    <FontAwesomeIcon icon={faGithub} className="icon" size="2x" />
+  </a> : null;
+  
   return (
     <div className={even ? style.projectFlip : style.project}>
       <div className={even ? style.projectFlip__image : style.project__image} style={{ backgroundImage: `url(${image})` }}></div>
@@ -20,9 +25,7 @@ const Project = ({ even, title, image, description, technologies, github, web })
         </ul>
       </div>
       <div className={even ? style.projectFlip__links : style.project__links}>
-        <a href={github} aria-label={`${title} github`} target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faGithub} className="icon" size="2x" />
-        </a>
+        {git}
         <a href={web} aria-label={`${title} website`} target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faExternalLinkAlt} size="2x" className="icon" />
         </a>
