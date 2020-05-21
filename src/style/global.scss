@@ -18,7 +18,7 @@ body {
   font-family: "Playfair Display", serif;
 
   &__main {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     color: $white;
   }
 
@@ -85,5 +85,16 @@ ul {
 
   li {
     margin-right: 10px;
+  }
+}
+
+@media (max-width: 900px) {
+  .heading {
+    &__main {
+      font-size: 3rem;
+    }
+    &__secondary {
+      font-size: 2rem;
+    }
   }
 }
