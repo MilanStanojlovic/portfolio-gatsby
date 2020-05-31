@@ -10,9 +10,9 @@ const About = () => {
             <div className="heading__main">
               About.
             </div>
-            <p className="text"><span className="highlight-text">The more ambitious project the better!</span>
+            <p className="text"><span className="highlight-text">The more ambitious project, the better!</span>
               <br /><br />
-            My name is Milan, I'm software engineer specializing in front-end web development. My main focus is helping businesses develop bespoke web solutions that their users will love.
+            My name is Milan, I'm a software engineer specializing in front-end web development. My main focus is on helping businesses develop bespoke web solutions that their users will love.
             <br /><br />
             Besides software and technology, some of my interests are basketball, graffiti and gaming.
             <br /> <br />
