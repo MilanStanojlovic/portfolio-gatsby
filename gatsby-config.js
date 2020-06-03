@@ -9,7 +9,7 @@ module.exports = {
     title: 'Milan | Software Engineer',
     author: 'Milan Stanojlovic',
     description: 'Milan is software engineer specializing in front end development of bespoke web solutions.',
-    email: 'milan.webdeveloper@gamil.com',
+    email: 'milan.webdeveloper@gmail.com',
     social: {
       linkedin: 'https://www.linkedin.com/in/milan-stanojlovic-5a5379107',
       github: 'https://github.com/MilanStanojlovic'
