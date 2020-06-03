@@ -2,7 +2,7 @@
   {
     "title": "Moovy",
     "image": "images/moovy.png",
-    "description": "To help movie lovers discover new and exciting movies, Moovy allows users to filter movies by category, search for movies, find new, popular as well as top rated movies. Users can also  the movie rating, short description, and movie cast.",
+    "description": "To help movie lovers discover new and exciting movies, Moovy allows users to filter movies by category, search for movies, find new, popular as well as top rated movies. Users can also see the movie rating, short description, and movie cast.",
     "github": "https://github.com/MilanStanojlovic/moovy-app",
     "web": "https://moovy-browser.netlify.app",
     "technologies": ["React", "CSS Modules", "Axios"]
