@@ -8,7 +8,7 @@ module.exports = {
   siteMetadata: {
     title: 'Milan | Software Engineer',
     author: 'Milan Stanojlovic',
-    description: 'Milan is software engineer specializing in front end development of bespoke web solutions.',
+    description: 'Milan is a software engineer specializing in front end web development.',
     email: 'milan.webdeveloper@gmail.com',
     social: {
       linkedin: 'https://www.linkedin.com/in/milan-stanojlovic-5a5379107',
@@ -16,17 +16,17 @@ module.exports = {
     }
   },
   /* Your site config here */
-  plugins: [`gatsby-plugin-sass`, 
-            `gatsby-plugin-anchor-links`,
-            `gatsby-plugin-react-helmet`,
-            `gatsby-transformer-json`,
-            {
-              resolve: `gatsby-source-filesystem`,
-              options: {
-                path:`${__dirname}/data/`
-              },
-            }, 
-            `gatsby-transformer-sharp`,
-            `gatsby-plugin-sharp`
-            ],
+  plugins: [`gatsby-plugin-sass`,
+    `gatsby-plugin-anchor-links`,
+    `gatsby-plugin-react-helmet`,
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/data/`
+      },
+    },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`
+  ],
 }
